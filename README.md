@@ -20,11 +20,16 @@ without a virtual environment, as `unittest` is in the standard library):
 
     $ python3 -m unittest discover tests
 
-(using `pytest` instead of `unittest` would also work. Try it.)
+Alternatively, with the virtual environment:
+
+    $ python3 -m pytest tests
+
+would do much the smae thing.
 
 ## Seeing Coverage
 
-These need the virtual environment.
+These need the virtual environment. Or if you do this in a Codespace you may well find that
+`pytest` is in the default system install.
 
 With `pytest`:
 
